@@ -20,6 +20,14 @@
   color: white;
 }
 
+.footer a[href] {
+  color: #00FFFF;
+}
+
+.socialMedia a[href] {
+  color: #21325e;
+}
+
 @media only screen and (max-width: 600px) {
   .footer svg {
     font-size: 50px;

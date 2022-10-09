@@ -24,20 +24,30 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 4vw;
   color: #e9d35b;
-  height: 50px;
+  height: 50%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: relative;
   padding-left: 10%;
 }
 
 .about .prompt {
-  width: 40%;
-  font-size: 40px;
-  padding-right: 20%;
+  width: 50%;
+  height: 50vh;
+  font-size: 3vw;
+  padding-right: 10%;
 }
+
+.prompt p {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  font-size: 20px;
+}
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
@@ -45,16 +55,29 @@
 }
 
 .skills {
-  font-size: 35px;
+  font-size: 25px;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .skills h1 {
   color: #3e497a;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.skills h2 {
+  color: #3e497a;
+  height: 20px;
+}
+
+a[href] {
+  color: #21325e;
 }
 
 .skills .list {
@@ -73,26 +96,119 @@
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #21325e;
+    color: #f0f0f0;
+    text-align: center;
+  }
+
   .about h2 {
     font-size: 30px;
     min-height: 80px;
+    padding: 0;
   }
 
   .about .prompt {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
-    width: 100%;
+    width: 50%;
+    height: 150%;
+    padding-right: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .skills .list .item .recent {
+    padding-bottom: 50px;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 680px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #21325e;
+    color: #f0f0f0;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 30px;
+    min-height: 80px;
+    padding: 0;
+  }
+
+  .about .prompt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 50%;
+    height: 150%;
+    padding-right: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   .skills {
     text-align: center;
   }
   .list {
-    padding: 0;
+    padding-left: 0px;
+  }
+
+  .skills h1 {
+    font-size: 50px;
   }
 
   .skills h2 {
     font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+    height: 0px;
+  }
+
+  .home img {
+    min-width: 70%;
+    height: auto;
+    align-items: center;
+    padding-top: 10%;
+  }
+
+  .skills .list .item .recent {
+    padding-bottom: 0px;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 800px) {
+  .skills h1 {
+    font-size: 30px;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+
+  .skills .list .item .recent {
+    padding-bottom: 0px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .about {
+    display: flex;
+    flex-direction: row;
   }
 }
