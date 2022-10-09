@@ -11,3 +11,10 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.experience {
+  padding-top: 50px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}

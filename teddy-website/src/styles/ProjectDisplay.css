@@ -4,16 +4,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
+  padding-top: 50px;
+  overflow-y: auto;
+  padding-bottom: 50px;
 }
 
 .project h1 {
-  margin-top: 50px;
+  margin-top: 25px;
   color: #3e497a;
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -25,4 +29,9 @@
 .project svg {
   font-size: 60px;
   color: #3e497a;
+}
+
+.devPost img {
+  padding-left: 20px;
+  width: 60px;
 }

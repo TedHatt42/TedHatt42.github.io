@@ -9,12 +9,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a href="https://www.google.com"> <InstagramIcon /> </a>
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a href="https://www.linkedin.com/in/teddy-hattenbach/"> <LinkedInIcon /> </a>
+        
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <a href="./directory/yourfile.pdf" download="newfilename">Download my resume</a>
     </div>
   );
 }
