@@ -55,28 +55,28 @@ function Home() {
               I interned for Paragon Data Labs, a tech company that provides
               financial services firms with compliance software. During my
               internship, I worked on the backend development for the software
-              to establish several new customer actions. I also engaged in a
-              data engineering project to automate the process in which input
-              data transfers to Paragon’s database, resulting in a significant
-              increase in efficiency. Finally, I quality-tested the front-end
-              user interface and improved customer experience by bug-fixing
-              dozens of issues.
+              in Java to establish several new customer actions. I also engaged
+              in a data engineering project to automate the process using MySQL
+              in which user-provided data transfers to Paragon’s database,
+              resulting in a significant increase in efficiency. Finally, I
+              quality-tested the front-end user interface to improve customer
+              experience and tracked these issues through Jira.
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>Java, Python, Typescript, JavaScript, MySQL, LaTeX</span>
+            <span>Java, JavaScript, Typescript, Python, SQL, R, LaTeX</span>
           </li>
           <li className="item">
             <h2>Software</h2>
             <span>
-              IntelliJ IDEA, GitHub, Visual Studio Code, Jupyter Notebook,
-              Eclipse, Jira, Confluence
+              Jira, Confluence, GitHub, Visual Studio Code, Jupyter Notebook,
+              IntelliJ IDEA, Eclipse
             </span>
           </li>
           <li className="item">
             <h2>Technologies</h2>
-            <span>Git, React.js, CSS, HTML, Jest, AWS</span>
+            <span>React.js, HTML, CSS, Git, MySQL, Jest, AWS</span>
           </li>
         </ol>
       </div>
