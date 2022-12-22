@@ -20,7 +20,9 @@ function Footer() {
         </a>
         <a href="https://github.com/TeddyHattenbach">
           {" "}
-          <GithubIcon style={{ fontSize: "5vw", color: "#171515" }} />{" "}
+          <GithubIcon
+            style={{color: "#171515" }}
+          />{" "}
         </a>
       </div>
       <a href={resume} download="resume">

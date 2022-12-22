@@ -14,18 +14,23 @@
   margin: 20px;
   font-size: 70px;
   cursor: pointer;
+  float: left;
 }
 
 .footer p {
   color: white;
 }
 
-.footer a[href] {
-  color: #00FFFF;
+.footer a:link {
+  color: #95f4ff;
 }
 
-.socialMedia a[href] {
-  color: #21325e;
+.footer a:hover {
+  color: rgb(201, 255, 255) ;
+}
+
+.footer a:visited {
+  color: #551A8B ;
 }
 
 @media only screen and (max-width: 600px) {

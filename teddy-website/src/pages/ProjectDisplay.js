@@ -23,7 +23,7 @@ function ProjectDisplay() {
         <a href={project.devPostLink}> {devPost} </a>
         <a href={project.gitHubLink}>
           {" "}
-          <GitHubIcon />
+          <GitHubIcon style={{color: "#171515" }} />
         </a>
       </div>
     </div>
