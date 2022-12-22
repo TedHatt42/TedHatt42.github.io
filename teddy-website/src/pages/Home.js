@@ -18,15 +18,17 @@ function Home() {
           <div className="icons">
             <a href="https://www.linkedin.com/in/teddy-hattenbach/">
               {" "}
-              <LinkedInIcon style={{ fontSize: "5vw" }} />{" "}
+              <LinkedInIcon
+                style={{ fontSize: "5vw", color: "#0A66C2" }}
+              />{" "}
             </a>
             <a href="mailto:teddyhattenbach@gmail.com">
               {" "}
-              <EmailIcon style={{ fontSize: "5vw" }} />{" "}
+              <EmailIcon style={{ fontSize: "5vw", color: "#EA4335" }} />{" "}
             </a>
             <a href="https://github.com/TeddyHattenbach">
               {" "}
-              <GithubIcon style={{ fontSize: "5vw" }} />{" "}
+              <GithubIcon style={{ fontSize: "5vw", color: "#171515" }} />{" "}
             </a>
           </div>
           <div className="contact">

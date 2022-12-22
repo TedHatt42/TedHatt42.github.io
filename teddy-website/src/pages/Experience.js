@@ -80,14 +80,14 @@ function Experience() {
           <p>
             {" "}
             <strong>IT and Audiovisual Support Co-op</strong>
-            <br />
-            • Provided timely, quality support to hundreds of customers with
-            personalized solutions. <br /> • Assisted over 100 professors with
-            classroom and office technology in person and remotely. <br /> •
-            Organized tasks and monitored incoming service channels for customer
-            requests.
+            <br /> • Provided timely, quality, tech support to hundreds of
+            customers with personalized solutions.
+            <br /> • Performed over 100 audiovisual setups and assisted
+            professors with classroom technology.
+            <br /> • Organized tasks and monitored incoming service channels for
+            customer requests.
             <br /> • Troubleshot dozens of software, hardware, and networking
-            issues.
+            issues tracked through ServiceNow.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -100,13 +100,14 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Wilton, CT</h4>
           <p>
             <strong>Software Developer Co-op</strong>
-            <br />
-            • Collaborated with a 20-person backend development team on
-            financial compliance software. <br /> • Automated the transfer of
-            user-provided data to the company database as a data engineer.{" "}
+            <br /> • Collaborated with a 20-person backend development team on
+            financial compliance software.
+            <br /> • Automated the transfer of user-provided data to the company
+            database as a data engineer.
             <br /> • Created actions related to customer input and email
-            notification systems using Java. <br /> • Tested the user interface
-            to optimize performance and user-friendliness.
+            notification systems using Java.
+            <br /> • Tested the user interface to optimize performance and
+            user-friendliness.
           </p>
         </VerticalTimelineElement>
 
@@ -120,12 +121,12 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Norwalk, CT</h4>
           <p>
             <strong>Website Developer</strong>
-            <br />
-            • Created and maintained a website and schedule for a small sports
-            business.
+            <br /> • Created and maintained a website and schedule for a small
+            sports business.
             <br /> • Updated descriptive home page, email contact page, and
-            services page daily. <br /> • Formulated marketing emails to send
-            out in e-blasts to over 50 people.
+            services page daily.
+            <br /> • Formulated marketing emails to send out in e-blasts to over
+            50 people.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

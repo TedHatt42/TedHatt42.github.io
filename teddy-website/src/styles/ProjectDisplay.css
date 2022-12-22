@@ -32,6 +32,7 @@
 }
 
 .devPost img {
-  padding-left: 20px;
+  float: left;
+  margin-right: 30px;
   width: 60px;
 }

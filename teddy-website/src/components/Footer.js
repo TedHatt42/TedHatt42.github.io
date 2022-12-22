@@ -12,15 +12,15 @@ function Footer() {
       <div className="socialMedia">
         <a href="https://www.linkedin.com/in/teddy-hattenbach/">
           {" "}
-          <LinkedInIcon />{" "}
+          <LinkedInIcon style={{ color: "#0A66C2" }} />{" "}
         </a>
         <a href="mailto:teddyhattenbach@gmail.com">
           {" "}
-          <EmailIcon />{" "}
+          <EmailIcon style={{ color: "#EA4335" }} />{" "}
         </a>
         <a href="https://github.com/TeddyHattenbach">
           {" "}
-          <GithubIcon />{" "}
+          <GithubIcon style={{ fontSize: "5vw", color: "#171515" }} />{" "}
         </a>
       </div>
       <a href={resume} download="resume">

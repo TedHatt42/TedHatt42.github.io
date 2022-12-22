@@ -33,19 +33,20 @@
 }
 
 .about .prompt {
+  color: #ffffff;
   width: 50%;
-  height: 50vh;
+  height: 50%;
   font-size: 3vw;
   padding-right: 10%;
 }
 
 .prompt p {
-  margin-top: 70px;
   margin-bottom: 10px;
 }
 
 .contact {
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 2vw;
 }
 
 .prompt svg {
@@ -109,7 +110,13 @@ a[href] {
   .about h2 {
     font-size: 30px;
     min-height: 80px;
+    width: 300px;
     padding: 0;
+    padding-top: 10%;
+  }
+
+  .about h2 img {
+    margin-bottom: 30px;
   }
 
   .about .prompt {
@@ -124,9 +131,22 @@ a[href] {
     padding-top: 10%;
     padding-bottom: 10%;
   }
+
+  .about .prompt p {
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .about .prompt .contact {
+    margin-top: 0px;
+  }
+
   .skills .list .item .recent {
     padding-bottom: 50px;
     margin: 0;
+  }
+
+  .contact {
+    font-size: 4vw;
   }
 }
 
@@ -138,6 +158,7 @@ a[href] {
     background-color: #21325e;
     color: #f0f0f0;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .about h2 {
@@ -162,6 +183,7 @@ a[href] {
   .skills {
     text-align: center;
   }
+
   .list {
     padding-left: 0px;
   }
@@ -189,6 +211,10 @@ a[href] {
     padding-bottom: 0px;
     margin: 0;
   }
+
+  .contact {
+    font-size: 3vw;
+  }
 }
 
 @media only screen and (min-width: 680px) and (max-width: 800px) {
@@ -204,11 +230,48 @@ a[href] {
     padding-bottom: 0px;
     margin: 0;
   }
+
+  .contact {
+    font-size: 2vw;
+  }
 }
 
 @media only screen and (max-height: 600px) {
   .about {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about h2 {
+    margin: 0;
+  }
+
+  .contact {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 680px) and (min-height: 600px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about h2 {
+    margin-bottom: 150px;
+  }
+
+  .about h2 img {
+    margin-bottom: 30px;
+  }
+
+  .about .prompt {
+    margin-top: 30px;
+  }
+
+  .contact {
+    font-size: 3vw;
   }
 }
