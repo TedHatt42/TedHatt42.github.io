@@ -106,7 +106,7 @@ function Experience() {
             database as a data engineer.
             <br /> • Created actions related to customer input and email
             notification systems using Java.
-            <br /> • Tested the user interface to optimize performance and
+            <br /> • Tested the front-end interface to optimize performance and
             user-friendliness.
           </p>
         </VerticalTimelineElement>
@@ -121,8 +121,8 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Norwalk, CT</h4>
           <p>
             <strong>Website Developer</strong>
-            <br /> • Created and maintained a website and schedule for a small
-            sports business.
+            <br /> • Launched and maintained a website using WordPress for a
+            small sports business.
             <br /> • Updated descriptive home page, email contact page, and
             services page daily.
             <br /> • Formulated marketing emails to send out in e-blasts to over

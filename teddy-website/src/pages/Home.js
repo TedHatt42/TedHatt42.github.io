@@ -44,9 +44,9 @@ function Home() {
           <li className="item">
             <h2>Highlight</h2>
             <span>
-              I completed and placed third place best hack in the 2021 HackBU
-              hackathon by developing software that enabled software users to
-              enter stock values to predict ET Stock Market price changes.
+              I placed 3rd best in HackBU 2021 by collaborating with three
+              people on software that enabled users to enter stock values to
+              predict ET Stock Market price changes.
             </span>
           </li>
           <li className="item">
