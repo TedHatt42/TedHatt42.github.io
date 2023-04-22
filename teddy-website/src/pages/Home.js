@@ -67,18 +67,20 @@ function Home() {
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>Java, JavaScript, Typescript, Python, SQL, R, LaTeX</span>
+            <span>Java, Python, SQL, Typescript, JavaScript, R, LaTeX</span>
           </li>
           <li className="item">
             <h2>Software</h2>
             <span>
-              Jira, Confluence, GitHub, Visual Studio Code, Jupyter Notebook,
-              IntelliJ IDEA, Eclipse
+              React.js, HTML, CSS, Git, MySQL, Flask, JUnit, Jest, AWS
             </span>
           </li>
           <li className="item">
             <h2>Technologies</h2>
-            <span>React.js, HTML, CSS, Git, MySQL, Jest, AWS</span>
+            <span>
+              Eclipse IDE, Jira, Visual Studio Code, Docker, GitHub, IntelliJ
+              IDEA, Jupyter Notebook
+            </span>
           </li>
         </ol>
       </div>
