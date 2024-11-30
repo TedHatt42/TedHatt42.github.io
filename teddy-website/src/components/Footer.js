@@ -3,7 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Footer.css";
-import "../assets/resume.pdf";
+import "../assets/Resume.pdf";
 import { resume } from "../helpers/Files";
 
 function Footer() {

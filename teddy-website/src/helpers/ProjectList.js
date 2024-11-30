@@ -1,11 +1,23 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.png";
-import Proj3 from "../assets/proj3.png";
+import Activism from "../assets/Activism.jpg";
+import Covey from "../assets/Covey.jpg";
+import Classification from "../assets/Classification.png";
+import Predictor from "../assets/Predictor.png";
 
 export const ProjectList = [
   {
-    name: "Covey.Town Virtual Meeting Space",
-    image: Proj1,
+    name: "Social Activism Platform",
+    image: Activism,
+    about: "I am leading the backend development in the creation of a community platform"
+          + " for activists to improve their advocacy",
+    skills: "Python, Django, Typescript",
+    devPostLink: null,
+    gitHubLink: null,
+  },
+  {
+    name: "Covey.Town",
+    image: Covey,
+    about: "Four people and I implemented a rock paper scissors game in a virtual meeting space"
+         + " with asynchronous communication. I designed the frontend with a top 10 leaderboard.",
     skills: "Typescript, HTML, React.js, Socket.io",
     devPostLink: null,
     gitHubLink:
@@ -13,7 +25,11 @@ export const ProjectList = [
   },
   {
     name: "Intracerebral Brain Hemorrhage Classification",
-    image: Proj2,
+    image: Classification,
+    about: "I worked with four people to train a Convolutional Neural Network model"
+         + " for the image classification of brain hemorrhages"
+         + " and evaluate the performance of 7 CNN optimizers."
+         + " We attained a testing accuracy score of 98%.",
     skills: "Python, TensorFlow, Keras, PIL, Jupyter Notebook",
     devPostLink: null,
     gitHubLink:
@@ -21,25 +37,12 @@ export const ProjectList = [
   },
   {
     name: "ET Stock Predictor",
-    image: Proj3,
+    image: Predictor,
+    about: "I placed 3rd best out of 70 teams in HackBU 2021 by collaborating with three"
+            + " people on software that enabled users to enter stock values to"
+            + " predict an energy transfer stock market price.",
     skills: "Python, HTML, Keras, Flask, \nJupyter Notebook, Machine Learning",
     devPostLink: "https://devpost.com/software/et-stock-prediction",
     gitHubLink: "https://github.com/TeddyHattenbach/ET-Stock-Prediction",
   },
-
-  // {
-  //   name: "Social Media Website",
-  //   image: Proj4,
-  //   skills: "React,Node.js,MySQL,GraphQL",
-  // },
-  // {
-  //   name: "Dashboard Visualizer",
-  //   image: Proj5,
-  //   skills: "JavaScript,HTML,CSS",
-  // },
-  // {
-  //   name: "Mobile Game",
-  //   image: Proj6,
-  //   skills: "React Native,JavaScript,HTML,CSS",
-  // },
 ];

@@ -34,7 +34,7 @@ function Home() {
           <div className="contact">
             teddyhattenbach@gmail.com
             <br />
-            203-979-7419
+            413-822-5776
           </div>
         </div>
       </div>
@@ -42,44 +42,47 @@ function Home() {
         <h1>About me</h1>
         <ol className="list">
           <li className="item">
-            <h2>Highlight</h2>
+            <h2>Summary</h2>
             <span>
-              I placed 3rd best in HackBU 2021 by collaborating with three
-              people on software that enabled users to enter stock values to
-              predict ET Stock Market price changes.
+            I have over two years of experience as a Software Developer
+            and am a recent graduate of Northeastern University.
             </span>
           </li>
           <li className="item">
             <div className="recent">
-              <h2>Recent Experience</h2>
+              <h2>My experience</h2>
             </div>
             <span>
-              I interned for Paragon Data Labs, a tech company that provides
-              financial services firms with compliance software. During my
-              internship, I worked on the backend development for the software
-              in Java to establish several new customer actions. I also engaged
-              in a data engineering project to automate the process using MySQL
-              in which user-provided data transfers to Paragon’s database,
-              resulting in a significant increase in efficiency. Finally, I
-              quality-tested the front-end user interface to improve customer
-              experience and tracked these issues through Jira.
+            After studying computer science for four years at college, I was eager to apply my knowledge.
+            I competed in a hackathon and placed third out of seventy groups for Python software
+            that predicts stock prices. I am now in a team to create a platform for social activists
+            to refine communication.
+            <br /><br />
+            I have been actively using my skills to improve client experience during my jobs.
+            I am implementing code requirements with Python for Outlaw Technology’s web console
+            and ensuring a high-quality experience for users to view and manage data.
+            During my internship at Paragon Data Labs, I established several new customer actions in Java
+            and significantly optimized the transfer of user data to the company database.
+
+            
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>Java, Python, SQL, Typescript, JavaScript, R, LaTeX</span>
-          </li>
-          <li className="item">
-            <h2>Software</h2>
             <span>
-              React.js, HTML, CSS, Git, MySQL, Flask, JUnit, Jest, AWS
-            </span>
+              Python, JavaScript, Java, SQL, Typescript
+              </span>
           </li>
           <li className="item">
             <h2>Technologies</h2>
             <span>
-              Eclipse IDE, Jira, Visual Studio Code, Docker, GitHub, IntelliJ
-              IDEA, Jupyter Notebook
+              HTML, CSS, Git, AWS
+            </span>
+          </li>
+          <li className="item">
+            <h2>Software</h2>
+            <span>
+              GitHub, Visual Studio Code, Linux, DBeaver, Postman, Jupyter Notebook
             </span>
           </li>
         </ol>

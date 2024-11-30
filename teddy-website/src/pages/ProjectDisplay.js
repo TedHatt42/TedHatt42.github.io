@@ -9,22 +9,24 @@ function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
   const devPost =
-    project.name === "ET Stock Predictor" ? (
+    project.devPostLink !== null ? (
       <img src={DevPost} alt="project" />
+    ) : null;
+  const gitHub =
+    project.gitHubLink !== null ? (
+      <GitHubIcon style={{color: "#171515" }} />
     ) : null;
   return (
     <div className="project">
       <h1> {project.name}</h1>
       <img src={project.image} alt="project" />
-      <p>
+      <p>{project.about}</p>
+      <p class="skills">
         <b>Skills:</b> {project.skills}
       </p>
       <div className="devPost">
         <a href={project.devPostLink}> {devPost} </a>
-        <a href={project.gitHubLink}>
-          {" "}
-          <GitHubIcon style={{color: "#171515" }} />
-        </a>
+        <a href={project.gitHubLink}> {" "} {gitHub} </a>
       </div>
     </div>
   );
