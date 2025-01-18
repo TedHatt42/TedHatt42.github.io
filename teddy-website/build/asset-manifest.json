@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.72099fd7.css",
-    "main.js": "/static/js/main.20b0b999.js",
-    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
-    "static/media/proj1.jpg": "/static/media/proj1.236c83173fc2c4e5f25c.jpg",
-    "static/media/resume.pdf": "/static/media/resume.c49983760feec36a649d.pdf",
-    "static/media/proj2.png": "/static/media/proj2.bb7ca68a321d7fc2e4ba.png",
-    "static/media/pp.jpg": "/static/media/pp.b52eaaca78e1656dde7e.jpg",
-    "static/media/proj3.png": "/static/media/proj3.a059cdc87ed6f4de2506.png",
+    "main.css": "/static/css/main.02516344.css",
+    "main.js": "/static/js/main.859e614f.js",
+    "static/js/488.9ec75b15.chunk.js": "/static/js/488.9ec75b15.chunk.js",
+    "static/media/Covey.jpg": "/static/media/Covey.236c83173fc2c4e5f25c.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.a3803be6eb4e906696f3.pdf",
+    "static/media/Classification.png": "/static/media/Classification.bb7ca68a321d7fc2e4ba.png",
+    "static/media/ProfilePicture.jpg": "/static/media/ProfilePicture.b52eaaca78e1656dde7e.jpg",
+    "static/media/Predictor.png": "/static/media/Predictor.a059cdc87ed6f4de2506.png",
+    "static/media/Activism.jpg": "/static/media/Activism.f9c82551d51f778e17e5.jpg",
     "index.html": "/index.html",
-    "main.72099fd7.css.map": "/static/css/main.72099fd7.css.map",
-    "main.20b0b999.js.map": "/static/js/main.20b0b999.js.map",
-    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+    "main.02516344.css.map": "/static/css/main.02516344.css.map",
+    "main.859e614f.js.map": "/static/js/main.859e614f.js.map",
+    "488.9ec75b15.chunk.js.map": "/static/js/488.9ec75b15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72099fd7.css",
-    "static/js/main.20b0b999.js"
+    "static/css/main.02516344.css",
+    "static/js/main.859e614f.js"
   ]
 }
